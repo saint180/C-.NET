@@ -21,6 +21,10 @@ namespace Test
         private DateTime lastLoginTime;
         private List<DateTime> dateTimes = new List<DateTime>();
 
+        private static TimeSpan totalusagetime = TimeSpan.Zero;
+
+        private const string usagefile = "usage.txt";
+
         bool sidebarExpand;
 
         public Form4(DateTime currentTime)
@@ -28,6 +32,15 @@ namespace Test
             InitializeComponent();
             this.loginTime = currentTime;
             loginTimes.Add(loginTime);
+
+            if (File.Exists(usagefile))
+            {
+                string savedTime = File.ReadAllText(usagefile);
+                if (TimeSpan.TryParse(savedTime, out TimeSpan loadedTime))
+                {
+                    totalusagetime = loadedTime;
+                }
+            }
         }
 
         private void panel2_Paint(object sender, PaintEventArgs e)
@@ -94,7 +107,14 @@ namespace Test
 
             this.lastLoginTime = DateTime.Now;
             dateTimes.Add(lastLoginTime);
-            MessageBox.Show("Total useage time for this session :" + (lastLoginTime - loginTime));
+            TimeSpan sessionDuration = lastLoginTime - loginTime;
+
+            totalusagetime += sessionDuration;
+
+            File.WriteAllText(usagefile, totalusagetime.ToString());
+
+            MessageBox.Show("Total useage time for this session :" + sessionDuration + "Total app useage time: " + totalusagetime);
+
             this.Close();
         }
 

@@ -79,6 +79,7 @@
             button7.BackColor = Color.Transparent;
             button7.BackgroundImage = Properties.Resources.close;
             button7.BackgroundImageLayout = ImageLayout.Zoom;
+            button7.FlatAppearance.BorderSize = 0;
             button7.FlatStyle = FlatStyle.Flat;
             button7.Location = new Point(1018, 12);
             button7.Name = "button7";
