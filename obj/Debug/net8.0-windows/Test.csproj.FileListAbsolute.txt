@@ -28,3 +28,11 @@ C:\Users\Sachin\source\repos\Test\Test\obj\Debug\net8.0-windows\Test.csproj.Asse
 C:\Users\Sachin\source\repos\Test\Test\obj\Debug\net8.0-windows\Test.csproj.Up2Date
 C:\Users\Sachin\source\repos\Test\Test\bin\Debug\net8.0-windows\SharpDX.dll
 C:\Users\Sachin\source\repos\Test\Test\obj\Debug\net8.0-windows\Test.Properties.Resources.resources
+C:\Users\Sachin\source\repos\Test\Test\bin\Debug\net8.0-windows\Dragablz.dll
+C:\Users\Sachin\source\repos\Test\Test\bin\Debug\net8.0-windows\SipaaFramework.dll
+C:\Users\Sachin\source\repos\Test\Test\obj\Debug\net8.0-windows\Test.Account.resources
+C:\Users\Sachin\source\repos\Test\Test\obj\Debug\net8.0-windows\Test.Explore.resources
+C:\Users\Sachin\source\repos\Test\Test\obj\Debug\net8.0-windows\Test.Home.resources
+C:\Users\Sachin\source\repos\Test\Test\obj\Debug\net8.0-windows\Test.Inbox.resources
+C:\Users\Sachin\source\repos\Test\Test\obj\Debug\net8.0-windows\Test.Notification.resources
+C:\Users\Sachin\source\repos\Test\Test\obj\Debug\net8.0-windows\Test.Settings.resources

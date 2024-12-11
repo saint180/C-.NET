@@ -8,11 +8,21 @@
     ".NETCoreApp,Version=v8.0": {
       "Test/1.0.0": {
         "dependencies": {
+          "Dragablz": "0.0.3.234",
           "SharpDX": "4.2.0",
-          "Twilio": "7.7.0"
+          "SipaaFramework": "1.1.0",
+          "Twilio": "7.8.0"
         },
         "runtime": {
           "Test.dll": {}
+        }
+      },
+      "Dragablz/0.0.3.234": {
+        "runtime": {
+          "lib/netcoreapp3.0/Dragablz.dll": {
+            "assemblyVersion": "0.0.3.234",
+            "fileVersion": "0.0.3.234"
+          }
         }
       },
       "Microsoft.CSharp/4.5.0": {},
@@ -183,6 +193,14 @@
           "lib/netstandard1.1/SharpDX.dll": {
             "assemblyVersion": "4.2.0.0",
             "fileVersion": "4.2.0.0"
+          }
+        }
+      },
+      "SipaaFramework/1.1.0": {
+        "runtime": {
+          "lib/net46/SipaaFramework.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
           }
         }
       },
@@ -768,7 +786,7 @@
           "System.Xml.ReaderWriter": "4.3.0"
         }
       },
-      "Twilio/7.7.0": {
+      "Twilio/7.8.0": {
         "dependencies": {
           "Microsoft.IdentityModel.Tokens": "6.34.0",
           "Newtonsoft.Json": "13.0.1",
@@ -777,8 +795,8 @@
         },
         "runtime": {
           "lib/net6.0/Twilio.dll": {
-            "assemblyVersion": "7.7.0.0",
-            "fileVersion": "7.7.0.0"
+            "assemblyVersion": "7.8.0.0",
+            "fileVersion": "7.8.0.0"
           }
         }
       }
@@ -789,6 +807,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Dragablz/0.0.3.234": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-soq8laPTrPWSA3vC3fnfU/gye2VejTbRXTuXzmVoHIySHWe5MhSIqR9KvFRmwk8xglsjVnnaa+su/10cFieuTw==",
+      "path": "dragablz/0.0.3.234",
+      "hashPath": "dragablz.0.0.3.234.nupkg.sha512"
     },
     "Microsoft.CSharp/4.5.0": {
       "type": "package",
@@ -978,6 +1003,13 @@
       "sha512": "sha512-3pv0LFMvfK/dv1qISJnn8xBeeT6R/FRvr0EV4KI2DGsL84Qlv6P7isWqxGyU0LCwlSVCJN3jgHJ4Bl0KI2PJww==",
       "path": "sharpdx/4.2.0",
       "hashPath": "sharpdx.4.2.0.nupkg.sha512"
+    },
+    "SipaaFramework/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-acX8Hz5lbto9JTGZq3VnXvsFnt3uy9Tgvyj3tqhCnpNqICvVWXenTHxH3wmyV3jUWC8dlpnb68qdbno3IbXqZA==",
+      "path": "sipaaframework/1.1.0",
+      "hashPath": "sipaaframework.1.1.0.nupkg.sha512"
     },
     "System.AppContext/4.3.0": {
       "type": "package",
@@ -1385,12 +1417,12 @@
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
     },
-    "Twilio/7.7.0": {
+    "Twilio/7.8.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-xqFv4ojRFa28VDzsCFIK5KHUNPYOi+hC2rN5TmVxbVd+RhiqpyyOgMRgcHeBU8ZhBz9rh11yOQBL2TicAGZFjA==",
-      "path": "twilio/7.7.0",
-      "hashPath": "twilio.7.7.0.nupkg.sha512"
+      "sha512": "sha512-GsW+XAwXX1F2YKHoQuO7T73/awAxOskdVgtvsCi6mnHYVq0cffM1CZUQdERmRt9UiCmEvt32sPe7qy/On5TBzg==",
+      "path": "twilio/7.8.0",
+      "hashPath": "twilio.7.8.0.nupkg.sha512"
     }
   }
 }

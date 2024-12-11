@@ -31,14 +31,12 @@ namespace Test
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            System.Drawing.Bitmap image = new System.Drawing.Bitmap("C:\\Users\\Sachin\\source\\repos\\Test\\Test\\Resources\\B.gif");
+            
+        }
 
-            PictureBox pictureBox = new PictureBox();
-            pictureBox.Image = image;
-            pictureBox.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox.Dock = DockStyle.Fill;
-
-            this.Controls.Add(pictureBox);
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
